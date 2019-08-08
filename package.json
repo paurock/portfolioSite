@@ -1,0 +1,14 @@
+{
+  "name": "responsive-web-npmsite",
+  "version": "1.0.0",
+  "description": "Just sample of site",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Roman Tselenko",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
