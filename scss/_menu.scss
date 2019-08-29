@@ -94,6 +94,7 @@
       background: url('../img/portrait.jpg');
       border-radius: 50%;
       border: solid 3px $secondary-color;
+      opacity: 1;
     }
   }
 
@@ -126,6 +127,13 @@
       color: $secondary-color;
     }
   }
+}
+
+.backhome {
+  line-height: 50px;
+  height: 50px;
+  width: 200px;
+  margin: 1vh 0 20px 4rem;
 }
 
 // Delay each nav item slide by 0.1s

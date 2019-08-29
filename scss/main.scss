@@ -28,7 +28,6 @@ h3 {
 
   &.sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
     background: rgba(lighten($primary-color, 2), 0.5);
   }
 }
@@ -62,6 +61,7 @@ main {
 
       &:hover {
         color: $secondary-color;
+        cursor: pointer;
       }
     }
   }
@@ -120,9 +120,14 @@ main {
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);
 
+  .item {
+    border-radius: 10px;
+  }
+
   img {
     width: 100%;
     border: 3px #fff solid;
+    border-radius: 10px;
 
     &:hover {
       opacity: 0.5;
@@ -174,7 +179,7 @@ main {
 
 .btn-dark {
   @extend .btn;
-  background: darken($primary-color, 50);
+  background: darken($primary-color, 3);
   color: #fff;
 }
 
